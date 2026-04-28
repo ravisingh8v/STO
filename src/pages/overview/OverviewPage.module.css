@@ -1,0 +1,59 @@
+.ovScroll {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px 24px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.ovScroll::-webkit-scrollbar {
+  width: 6px;
+}
+
+.ovScroll::-webkit-scrollbar-thumb {
+  background: var(--g200, #DCDBD8);
+  border-radius: 3px;
+}
+
+.card {
+  background: var(--white, #ffffff);
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  border-radius: 12px;
+  padding: 16px 20px;
+  min-width: 0;
+}
+
+.cardDot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.cardTitle {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--g800, #2A2A28);
+}
+
+.hmCard {
+  background: var(--white, #ffffff);
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+
+.hmTitle {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--g800, #2A2A28);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .ovScroll {
+    padding: 16px;
+    gap: 12px;
+  }
+}

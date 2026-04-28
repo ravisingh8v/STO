@@ -11,7 +11,15 @@
   },
   "dependencies": {
     "react": "^19.2.5",
-    "react-dom": "^19.2.5"
+    "react-dom": "^19.2.5",
+    "react-router-dom": "^7.0.0",
+    "@mantine/core": "^7.3.0",
+    "@mantine/hooks": "^7.3.0",
+    "@tabler/icons-react": "^3.8.0",
+    "@reduxjs/toolkit": "^2.0.1",
+    "react-redux": "^9.0.0",
+    "@reduxjs/toolkit/query/react": "^2.0.1",
+    "axios": "^1.6.5"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
